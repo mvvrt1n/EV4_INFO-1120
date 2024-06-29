@@ -372,12 +372,12 @@ optionmenu_1.grid(row=0, column=1, padx=5, pady=(5, 5))
 
 
 
-
-
-
 # Seleccionar el marco predeterminado
 select_frame_by_name("home")
 toplevel_window = None
 root.protocol("WM_DELETE_WINDOW", root.quit)
 # Ejecutar el bucle principal de la interfaz
 root.mainloop()
+
+
+
